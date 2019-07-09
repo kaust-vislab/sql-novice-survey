@@ -9,3 +9,6 @@ dependencies:
   - pandas=0.24
   - jupyterlab=1.0
   - ipython-sql=0.3
+  - pip=19.1
+  - pip:
+    -  jupyterlab_sql==0.3
