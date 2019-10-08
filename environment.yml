@@ -2,13 +2,12 @@ name: null
 
 channels:
   - defaults
-  - conda-forge
 
 dependencies:
-  - python=3.7
-  - pandas=0.24
   - jupyterlab=1.0
-  - ipython-sql=0.3
-  - pip=19.1
+  - pip=19.2
   - pip:
-    -  jupyterlab_sql==0.3
+    - ipython-sql==0.3
+    - jupyterlab_sql==0.3
+  - pandas=0.25
+  - python=3.7
